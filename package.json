@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "start": "npm run lite",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "build": "babel app/es6 -d app/js --watch",
+    "bv": "babel --version"
   },
   "license": "ISC",
   "dependencies": {
