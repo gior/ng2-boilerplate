@@ -1,10 +1,11 @@
-(function(app) {
-  app.AppComponent =
-    ng.core.Component({
-      selector: 'my-app',
-      template: '<h1>A cool Angular 2 App</h1>'
-    })
-    .Class({
-      constructor: function() {}
-    });
-})(window.app || (window.app = {}));
+import {Component} from '@angular/core';
+
+@Component({
+  selector: 'my-app',
+  template: '<h1>Another cool Angular 2 App in ES6 only</h1>'
+})
+export class AppComponent {
+  constructor() {
+    console.log('Initializing AppComponent')
+  }
+}
