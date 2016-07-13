@@ -15,7 +15,7 @@ Startup
 --------------
 
 Launch ES6 transpiler watching for changes 
-```npm build```
+```npm run build```
 
 Start development server
 ```npm start```
